@@ -40,6 +40,7 @@ public class BowlingGame {
                 bonusScore += frames.get(i+1).getRoll2();
             }
         }
-        return baseScore + bonusScore;
+
+        return baseScore +bonusScore;
     }
 }
